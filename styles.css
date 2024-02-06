@@ -1,0 +1,39 @@
+/* style.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .yes-button, .no-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .no-button {
+    background-color: #f44336; /* Red */
+  }
+  
+  .yes-button:hover {
+    background-color: #45a049;
+  }
+  
+  .no-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .love-bear {
+    height: 200px;
+  }
